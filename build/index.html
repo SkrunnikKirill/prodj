@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>E-commerce</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="lib/flipcloack/compiled/flipclock.css">
+</head>
+<body>
+	<div>
+
+		<div class="welcome">
+			<div class="logo-head">
+				<h1 class="logo-head__wrap">
+					<img src="img/logo.png" alt="">
+				</h1>
+			</div>
+
+			<div class="eveint-info container">
+				<div class="eveint-info__item">
+					<h3>Ближайшее мероприятие:</h3>
+					<div>23 апреля 2017 года</div>
+				</div>
+				<div class="eveint-info__item">
+					<h3>Место проведения: </h3>
+					<div>пр. Науки, 5 “Кафе”
+						<span>Украина, г. Харьков</span>
+					</div>
+				</div>
+				<div class="eveint-info__item">
+					<h3>Стоимость участия:</h3>
+					<div>200 UAH</div>
+				</div>
+			</div>
+				<div class="clock"></div>
+			<div class="organizer">
+				Организатор: 
+				<a href="#">
+				 	<img src="img/web-line.png" alt="">
+				</a>
+			</div>
+			<div class="skroll-arrow">
+				<a href="#application" class="skroll-arrow__ln" title="Scroll down">
+		        	<img src="img/scroll-down.png" alt="">
+		     	</a>
+		    </div> 		
+		</div>
+
+		<div class="application" id="application">
+			<div class="container">
+				<h2 class="application__title">Как принять участие</h2>
+
+				<p class="application__text">Для этого необходимо сообщить ваше имя и фамилию по телефону<br>
+				или почте и оплатить участие не позже 15 марта 2017 года. </p>
+
+				<form class="application-form">
+					<div class="application-form__line">
+						<input id="name" type="text"placeholder="Имя" required="">
+						<input id="email" type="email" name="email" placeholder="Email" required="">
+					</div>
+					<div class="application-form__line">
+						<input type="text" class="application-form__input application-form-phone" id="phone" name="phone" placeholder="+3 (80__)-__-__-___">
+						<a href="#win1" id="button" class="application-form__btn"><span>Отправить заявку</span></a>
+					</div>
+				</form>
+			</div>	
+		</div>
+
+		<section class="events-program container">
+			<header class="events-program__title">
+				<h2>Программа мероприятия</h2>
+				<span></span>
+			</header>
+			<div class="events-program-start">
+				<time>18.00 - 18.30</time>Регистрация
+			</div>
+			
+			<div>	
+				<div class="events-program__item">
+					<div class="events-program__item__inner">
+						<div class="events-program__speaker">
+							<img src="img/vitaliy-kravcenko.jpg" alt="">
+							<div>
+								<h2>Виталий<br> Кравченко</h2>
+								<span>Webline Promotion, г. Харьков</span>
+							</div>
+						</div>
+						<div class="events-program__description">
+							<time>18.30 - 19.15</time>
+							<h3>"Крауд-маркетинг для бизнеса"</h3>
+							<ul>
+								<li>Что изменилось в крауде за 3 года</li>
+								<li>Как сегодня применять</li>
+								<li>Кому подходит аутсорс, кому инхаус</li>
+								<li>Успешные примеры и кейсы</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="events-program__item">
+					<div class="events-program__item__inner">
+						<div class="events-program__speaker">
+							<img src="img/dmitriy-shahov.jpg" alt="">
+							<div>
+								<h2>Дмитрий<br> Шахов</h2>
+								<span>ГК Ремарка, г. Калининград</span>
+							</div>
+						</div>
+						
+						<div class="events-program__description">
+							<time>19.15 - 20.00</time>
+							<h3>"Практика применения контент-маркетинга"</h3>
+							<ul>
+								<li>Что такое контент-маркетинг, в чем отличия от<br> традиционных рекламных каналов</li>
+								<li>Как выглядят бизнес-процессы в контент-маркетинге</li>
+							</ul>
+						</div>
+					</div>
+				</div>		
+				<div class="events-program__item">
+					<div class="events-program__item__inner">
+						<div class="events-program__speaker">
+							<img src="img/viktor-karpenko.jpg" alt="">
+							<div>
+								<h2>Виктор<br> Карпенко</h2>
+								<span>SeoProfy, г. Киев</span>
+							</div>
+						</div>
+						<div class="events-program__description">
+							<time>20.00 - 20.45</time>
+							<h3>"Крауд-маркетинг для бизнеса"</h3>
+							<ul>
+								<li>Что изменилось в крауде за 3 года</li>
+								<li>Как сегодня применять</li>
+								<li>Кому подходит аутсорс, кому инхаус</li>
+								<li>Успешные примеры и кейсы</li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+				<div class="events-program__item">
+					<div class="events-program__item__inner">
+						<div class="events-program__speaker">
+							<img src="img/denis-narizhiy.jpg" alt="">
+							<div>
+								<h2>Денис<br> Нарижный</h2>
+								<span>AskUsers, г. Москва</span>
+							</div>
+						</div>
+						<div class="events-program__description">
+							<time>20.45 - 21.30</time>
+							<h3>"Практика применения контент-маркетинга"</h3>
+							<ul>
+								<li>Что такое контент-маркетинг, в чем отличия от<br> традиционных рекламных каналов</li>
+								<li>Как выглядят бизнес-процессы в контент-маркетинге</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>			
+	
+			<div class="events-program-finish">
+				<time>20.45 - 23.00</time>Афтепати 
+			</div>
+
+		</section>
+
+
+		<section class="partners">
+			<header class="partners__title">
+				<h2>Информационная поддержка</h2>
+				<span></span>
+			</header>
+			<div class="container">
+				<ul class="partners-list">
+					<li>
+						<a href="#">
+							<img src="img/spalah.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/cluster.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/sempro.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/remarka.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/netpeak.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/serpstart.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/seochat.png" alt="">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="contact-map">
+			<div id="map"></div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer-inner container">
+				<div class="public-contract">
+					<a href="public-contract.html">Публичный договор оферты</a>
+				</div>	
+				<div class="contact">
+					<div>
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<a href="tel:+380985208479">+38 098 5208 479</a>
+					</div>
+					<div>
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						<a href="mailto:info@ecommerce.net.ua">info@ecommerce.net.ua</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="scroll-up scroll-top" style="display: block;">
+            <div class="eee" title="Top"> 
+            	<span>
+                	<i class="fa fa-angle-up"></i>
+                </span>	
+            </div>
+        </div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="https://api-maps.yandex.ru/2.1.18/?lang=ru_RU"></script>
+	<script type="text/javascript" src="js/plugins/maskedinput.js"></script>
+	<script type="text/javascript" src="js/plugins/ymaps.js"></script>
+	<script src="lib/flipcloack/compiled/flipclock.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+
+</body>
+</html>
